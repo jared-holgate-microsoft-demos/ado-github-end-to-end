@@ -4,7 +4,7 @@ namespace mega_project_api
     {
         public string ExampleMethod()
         {
-            return "Hello World!";
+            return "Hello World! 2";
         }
 
     }
