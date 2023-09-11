@@ -3,7 +3,7 @@ using mega_project_api;
 namespace mega_project_api_unittests;
 
 [TestClass]
-public class UnitTest1
+public class ExampleClassUnitTests
 {
     [TestMethod]
     public void TestMethod1()
