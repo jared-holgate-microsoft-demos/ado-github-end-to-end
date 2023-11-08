@@ -6,3 +6,10 @@ terraform {
     }
   }
 }
+
+resource "azurerm_resource_group" "name" {
+  name     = "rg-iac"
+  location = "eastus"  
+}
+
+// Create an azure vnet in the resource group

@@ -12,6 +12,6 @@ namespace mega_project_api
             var sql = $"UPDATE [dbo].[ExampleTable] SET [ExampleColumn] = {somethingToUpdate}";
             var command = new SqlCommand(sql, connection);
             command.ExecuteNonQuery();
-        } 
+        }
     }
 }
